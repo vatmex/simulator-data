@@ -1,6 +1,6 @@
 {
     "Name": "Mexico",
-    "CIDs": "1303345,842095,1291605",
+    "CIDs": "1303345,842095,1291605,810275",
     "Icon": "https://raw.githubusercontent.com/vatmex/simulator-data/main/logo.png",
     "Scenarios": "https://raw.githubusercontent.com/vatmex/simulator-data/main/ScenarioFiles.xml",
     "Airspace": "https://raw.githubusercontent.com/vatmex/vatmex-mmfr-sector/devel/Airspace.xml",
