@@ -1,0 +1,12 @@
+{
+    "Name": "Mexico",
+    "CIDs": "1303345,842095,1291605",
+    "Icon": "https://raw.githubusercontent.com/vatmex/simulator-data/main/logo.png",
+    "Scenarios": "https://raw.githubusercontent.com/vatmex/simulator-data/main/ScenarioFiles.xml",
+    "Airspace": "https://raw.githubusercontent.com/vatmex/vatmex-mmfr-sector/devel/Airspace.xml",
+    "Performance": "https://raw.githubusercontent.com/vatmex/vatmex-mmfr-sector/devel/Performance.xml",
+    "Positions": "https://raw.githubusercontent.com/vatmex/vatmex-mmfr-sector/devel/Positions.xml",
+    "Sectors": "https://raw.githubusercontent.com/vatmex/vatmex-mmfr-sector/devel/Sectors.xml",
+    "DEM": "https://raw.githubusercontent.com/vatmex/vatmex-mmfr-sector/devel/DEM.xml",
+    "AirportStartingLetters": "MM"
+}

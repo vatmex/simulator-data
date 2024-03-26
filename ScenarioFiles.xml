@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ScenarioFiles xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ScenarioFile>
+        <Name>Sesion 1 - Aproximacion Guadalajara</Name>
+        <Type>TMA</Type>
+        <StudentBriefing>TODO</StudentBriefing>
+        <InstructorNotes>TODO</InstructorNotes>
+        <Targets>
+            <Aircraft Callsign="VIV3329" Type="A20N" Delay="0">
+                <Squawk Code="4417" ModeC="true" />
+                <Position Latitude="20.787895" Longitude="-102.355644" Speed="280" Altitude="20000" />
+                <FlightPlan Active="true" Departure="MMCS" Destination="MMGL" Alternative="MMMX" Rules="I" CruiseSpeed="407"  RFL="33000" EETHours="01" EETMins="45" FuelHours="0" FuelMins="0" Remarks="/v/ FBO">GDL</FlightPlan>
+                <Route>GDL</Route>
+            </Aircraft>
+        </Targets>
+    </ScenarioFile>
+</ScenarioFiles>
