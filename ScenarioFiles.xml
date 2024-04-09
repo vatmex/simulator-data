@@ -1,16 +1,52 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ScenarioFiles xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <ScenarioFile>
-        <Name>Sesion 1 - Aproximacion Guadalajara</Name>
-        <Type>TMA</Type>
-        <StudentBriefing>TODO</StudentBriefing>
+        <Name>TMA Monterrey - Pista 12 - Básico</Name>
+        <Type>TMA Radar - Convencional</Type>
+        <StudentBriefing>
+            Estas conectado a Aproximación Monterrey. Torre y Centro se encuentran en linea.
+
+            La pista 12 esta en uso para llegadas y salidas.
+        </StudentBriefing>
         <InstructorNotes>TODO</InstructorNotes>
         <Targets>
-            <Aircraft Callsign="VIV3329" Type="A20N" Delay="0">
-                <Squawk Code="4417" ModeC="true" />
-                <Position Latitude="20.787895" Longitude="-102.355644" Speed="280" Altitude="20000" />
-                <FlightPlan Active="true" Departure="MMCS" Destination="MMGL" Alternative="MMMX" Rules="I" CruiseSpeed="407"  RFL="33000" EETHours="01" EETMins="45" FuelHours="0" FuelMins="0" Remarks="/v/ FBO">GDL</FlightPlan>
-                <Route>GDL</Route>
+            <!--Llegadas de RETOS-->
+            <Aircraft Callsign="AMX964" Type="B38M" Delay="0">
+                <Squawk Code="0001" ModeC="true" />
+                <Cleared Level="4800" />
+                <Position Latitude="24.885302" Longitude="-99.099495" Speed="280" Altitude="22000" />
+                <FlightPlan Active="true" Departure="MMMX" Destination="MMMY" Alternative="MMIO" Rules="I" CruiseSpeed="451"  RFL="34000" EETHours="01" EETMins="45" FuelHours="0" FuelMins="0" Remarks="/v/ ">AXIR2A AXIRI UT138 CVM UJ15E RETOS RETO1A/12</FlightPlan>
+                <Route>SESNO RETOS</Route>
+            </Aircraft>
+            <Aircraft Callsign="VIV2194" Type="A320" Delay="0">
+                <Squawk Code="0002" ModeC="true" />
+                <Cleared Level="4800" />
+                <Position Latitude="24.829891" Longitude="-98.796753" Speed="280" Altitude="22000" />
+                <FlightPlan Active="true" Departure="MMUN" Destination="MMMY" Alternative="MMIO" Rules="I" CruiseSpeed="463"  RFL="38000" EETHours="01" EETMins="45" FuelHours="0" FuelMins="0" Remarks="/v/ ">UDGU2A UDGUV MID UJ26 PERGO UT37 SESNO UJ15E RETOS RETO1A/12</FlightPlan>
+                <Route>SESNO RETOS</Route>
+            </Aircraft>
+            <!--Llegadas de ITPIS-->
+            <Aircraft Callsign="UPS300" Type="B752" Delay="0">
+                <Squawk Code="0003" ModeC="true" />
+                <Cleared Level="4800" />
+                <Position Latitude="26.128963" Longitude="-98.663383" Speed="280" Altitude="20000" />
+                <FlightPlan Active="true" Departure="KSDF" Destination="MMMY" Alternative="MMIO" Rules="I" CruiseSpeed="498"  RFL="30000" EETHours="01" EETMins="45" FuelHours="0" FuelMins="0" Remarks="/v/ ">IZAAC SWB J180 IAH J29 PSX REX UJ13 ITPIS ITPI1A/12</FlightPlan>
+                <Route>CAMUI UJ13 ITPIS</Route>
+            </Aircraft>
+            <Aircraft Callsign="VIV617" Type="A320" Delay="0">
+                <Squawk Code="0004" ModeC="true" />
+                <Cleared Level="4800" />
+                <Position Latitude="26.176689" Longitude="-98.392441" Speed="280" Altitude="20000" />
+                <FlightPlan Active="true" Departure="KIAH" Destination="MMMY" Alternative="MMIO" Rules="I" CruiseSpeed="463"  RFL="34000" EETHours="01" EETMins="45" FuelHours="0" FuelMins="0" Remarks="/v/ ">RITAA7 CRP FETMO CAMUI UJ13 ITPIS ITPI1A/12</FlightPlan>
+                <Route>ITPIS</Route>
+            </Aircraft>
+            <!--Llegadas de Saltillo-->
+            <Aircraft Callsign="VIV4365" Type="A320" Delay="0">
+                <Squawk Code="0005" ModeC="true" />
+                <Cleared Level="4800" />
+                <Position Latitude="25.546743" Longitude="-100.968376" Speed="280" Altitude="20000" />
+                <FlightPlan Active="true" Departure="MMLM" Destination="MMMY" Alternative="MMIO" Rules="I" CruiseSpeed="463"  RFL="34000" EETHours="01" EETMins="45" FuelHours="0" FuelMins="0" Remarks="/v/ ">LMM4B LMM UJ6 CUL UJ10 SLW SLW1B/12</FlightPlan>
+                <Route>SLW</Route>
             </Aircraft>
         </Targets>
     </ScenarioFile>
